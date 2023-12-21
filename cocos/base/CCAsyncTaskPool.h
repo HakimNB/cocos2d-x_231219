@@ -121,6 +121,7 @@ protected:
             _thread = std::thread(
                                   [this]
                                   {
+                                    cocos2d::log("CCAsyncTaskPool new thread %d", gettid());
                                       for(;;)
                                       {
                                           std::function<void()> task;
