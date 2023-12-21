@@ -27,6 +27,8 @@ Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.
 #ifndef __CC_PLATFORM_MACROS_H__
 #define __CC_PLATFORM_MACROS_H__
 
+#define COCOS2D_DEBUG 1
+
 /**
  * Define some platform specific macros.
  */

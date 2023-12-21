@@ -30,6 +30,8 @@ cmake_minimum_required(VERSION 3.6)
 
 project(Cocos2d-x)
 
+add_definitions( -DCOCOS2D_DEBUG=1 )
+
 # set default minimum deployment target
 if(XCODE)
     if(NOT DEFINED CMAKE_XCODE_ATTRIBUTE_IPHONEOS_DEPLOYMENT_TARGET)
